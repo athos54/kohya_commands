@@ -56,6 +56,10 @@ unset LD_LIBRARY_PATH
 bash gui.sh --share
 ```
 
+### Sincronizar loras
+
+root@2d6e404b7b8d:/workspace/stable-diffusion-webui/models# rsync -rtlv ../../training/model/ ./Lora/
+
 ## Parametros para la pestaña de Technical parameters
 |Parametro|Valor|
 |--------------------------------|-----------------------|
