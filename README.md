@@ -48,6 +48,9 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 ./setup.sh -n
 ```
 
+### Si sale error
+unset LD_LIBRARY_PATH
+
 ### Finalmente ejecutamos la aplicación
 ```bash
 bash gui.sh --share
