@@ -56,6 +56,12 @@ unset LD_LIBRARY_PATH
 bash gui.sh --share
 ```
 
+### todo en uno
+
+```bash
+cd /workspace && git clone https://github.com/bmaltais/kohya_ss.git && cd kohya_ss && python3 -m venv venv && source venv/bin/activate && apt update -y && apt-get install python3.10-tk -y && pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 && unset LD_LIBRARY_PATH && ./setup.sh -n
+```
+
 ### Sincronizar loras
 
 root@2d6e404b7b8d:/workspace/stable-diffusion-webui/models# rsync -rtlv ../../training/model/ ./Lora/
